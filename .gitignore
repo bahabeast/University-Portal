@@ -1,0 +1,55 @@
+# Ignore uploaded photos
+/photos/
+
+# Maven and build
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.nb-gradle/
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+
+# VS Code
+.vscode/
+
+# Logs and system
+*.log
+logs/
+log/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment config
+.env
+*.env
+
+# Spring Boot config (optional)
+application.properties
+application.yml

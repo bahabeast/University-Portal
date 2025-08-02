@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>All Students - Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+<div class="page-container">
+    <header class="topbar">
+        <h1>All Students</h1>
+        <div class="nav-links">
+            <a onclick="logout()" href="admin-login.html" >Logout</a>
+        </div>
+    </header>
+
+    <div class="table-wrapper">
+        <table class="compact">
+            <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Group</th>
+                <th>Course</th>
+                <th>Photo</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="studentsTable"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="js/students.js"> function logout() {
+    localStorage.clear();
+    window.location.href = "admin-login.html";
+  }</script>
+</body>
+</html>
