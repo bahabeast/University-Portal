@@ -1,5 +1,5 @@
 # Ignore uploaded photos
-/photos/
+photos/
 
 # Maven and build
 target/
