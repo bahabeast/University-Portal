@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Admin Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+<body>
+<div class="card">
+    <h2>Admin Register</h2>
+    <form id="adminRegisterForm">
+        <div class="field">
+            <input type="email" id="email" placeholder="Email" required />
+        </div>
+        <div class="field">
+            <input type="password" id="password" placeholder="Password" required />
+        </div>
+        <div class="field">
+            <button type="submit" class="btn">Register</button>
+        </div>
+    </form>
+    <div class="text-center">
+        <span>Already have an account? </span><a class="small-link" href="admin-login.html">Login</a>
+    </div>
+    <p id="error"></p>
+</div>
+<script src="js/admin-register.js"></script>
+</body>
+</html>

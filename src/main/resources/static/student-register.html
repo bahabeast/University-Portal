@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Student Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+</head>
+<body>
+<div class="card">
+    <h2>Student Register</h2>
+    <form id="studentRegisterForm" enctype="multipart/form-data">
+        <div class="field"><input type="text" id="fullName" placeholder="Full Name" required></div>
+        <div class="field"><input type="text" id="groupNumber" placeholder="Group Number" required></div>
+        <div class="field"><input type="number" id="course" placeholder="Course" required></div>
+        <div class="field"><input type="email" id="email" placeholder="Email" required></div>
+        <div class="field"><input type="password" id="password" placeholder="Password" required></div>
+        <div class="field file-input-wrapper">
+            <input type="file" id="photo" accept="image/*">
+        </div>
+        <div class="field">
+            <button type="submit" class="btn">Register</button>
+        </div>
+    </form>
+    <div class="text-center">
+        <span>Have account? </span><a class="small-link" href="student-login.html">Login</a>
+    </div>
+    <p id="error"></p>
+</div>
+<script src="js/student-register.js"></script>
+</body>
+</html>
