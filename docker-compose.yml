@@ -16,6 +16,7 @@ services:
 
   app:
     build: .
+    image: baha777/universityportal-app:latest
     container_name: university-app
     ports:
       - "8080:8080"
