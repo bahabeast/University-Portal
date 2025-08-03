@@ -1,3 +1,4 @@
+REPOSITORY COPY COMMANDS:
 git clone https://github.com/bahabeast/University-Portal.git
 cd University-Portal
 docker-compose up --build
@@ -6,3 +7,5 @@ ENTRANCE TO APPLICATION:
     For Admins: http://localhost:8080/admin-register.html
     For Students: http://localhost:8080/student-register.html
 
+ACCESS IN DOCKER HUB:
+https://hub.docker.com/repository/docker/baha777/universityportal-app
